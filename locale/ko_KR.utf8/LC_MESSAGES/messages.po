@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: webERP 4.15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-09 07:31-0600\n"
+"POT-Creation-Date: 2019-08-27 20:11-0600\n"
 "PO-Revision-Date: 2015-09-18 10:34+0900\n"
 "Last-Translator: Dongbak Cha <human@humansoft.kr>\n"
 "Language-Team: Korean <human@humansoft.kr>\n"
@@ -315,7 +315,7 @@ msgstr "손익"
 #: DailyBankTransactions.php:195 DailyBankTransactions.php:200
 #: DeliveryDetails.php:1142 DeliveryDetails.php:1183 DeliveryDetails.php:1186
 #: FormDesigner.php:88 GLAccountUsers.php:170 GLAccountUsers.php:179
-#: GLTransInquiry.php:72 InternalStockRequestInquiry.php:423
+#: GLTransInquiry.php:69 InternalStockRequestInquiry.php:423
 #: InternalStockRequestInquiry.php:434 Labels.php:591 Labels.php:593
 #: Labels.php:619 Locations.php:441 Locations.php:663 Locations.php:665
 #: Locations.php:678 Locations.php:680 Locations.php:696 MRPCalendar.php:225
@@ -389,7 +389,7 @@ msgstr "네"
 #: DailyBankTransactions.php:197 DailyBankTransactions.php:200
 #: DeliveryDetails.php:1143 DeliveryDetails.php:1184 DeliveryDetails.php:1187
 #: FormDesigner.php:86 GLAccountUsers.php:172 GLAccountUsers.php:182
-#: GLTransInquiry.php:91 InternalStockRequestInquiry.php:421
+#: GLTransInquiry.php:88 InternalStockRequestInquiry.php:421
 #: InternalStockRequestInquiry.php:432 Labels.php:590 Labels.php:594
 #: Labels.php:620 Locations.php:441 Locations.php:668 Locations.php:670
 #: Locations.php:683 Locations.php:685 Locations.php:697 MRPCalendar.php:227
@@ -936,7 +936,7 @@ msgstr "고객에 대한주의 사항"
 #: CustomerAllocations.php:376 CustomerInquiry.php:251
 #: CustomerTransInquiry.php:100 CustWhereAlloc.php:143
 #: DailyBankTransactions.php:152 GeneratePickingList.php:509
-#: GLAccountReport.php:344 GLJournalInquiry.php:96 GLTransInquiry.php:45
+#: GLAccountReport.php:344 GLJournalInquiry.php:96 GLTransInquiry.php:42
 #: MRPCalendar.php:220 PaymentAllocations.php:66 Payments.php:1005
 #: Payments.php:1369 PcAssignCashTabToTab.php:286 PcAssignCashToTab.php:232
 #: PcAuthorizeCash.php:92 PDFOrdersInvoiced.php:377 PDFRemittanceAdvice.php:307
@@ -960,9 +960,9 @@ msgstr "날짜"
 
 #: AddCustomerNotes.php:117 AddCustomerTypeNotes.php:111 SelectCustomer.php:797
 #: SelectCustomer.php:835 StockClone.php:941 Stocks.php:1306
-#: UpgradeDatabase.php:253 UpgradeDatabase.php:256 UpgradeDatabase.php:259
-#: UpgradeDatabase.php:262 UpgradeDatabase.php:265 UpgradeDatabase.php:268
-#: UpgradeDatabase.php:271 UpgradeDatabase.php:274 UpgradeDatabase.php:277
+#: UpgradeDatabase.php:255 UpgradeDatabase.php:258 UpgradeDatabase.php:261
+#: UpgradeDatabase.php:264 UpgradeDatabase.php:267 UpgradeDatabase.php:270
+#: UpgradeDatabase.php:273 UpgradeDatabase.php:276 UpgradeDatabase.php:279
 #: Z_Upgrade_3.10-3.11.php:61 Z_Upgrade_3.10-3.11.php:65
 #: Z_Upgrade_3.10-3.11.php:69 Z_Upgrade_3.10-3.11.php:73
 #: Z_Upgrade_3.10-3.11.php:77 Z_Upgrade_3.11-4.00.php:61
@@ -1089,7 +1089,7 @@ msgstr "재고"
 #: FixedAssetCategories.php:166 FixedAssetDepreciation.php:90
 #: FixedAssetRegister.php:89 FixedAssetRegister.php:390
 #: FixedAssetTransfer.php:59 FixedAssetTransfer.php:161 GLTags.php:61
-#: GLTags.php:80 GLTransInquiry.php:47 GoodsReceived.php:128
+#: GLTags.php:80 GLTransInquiry.php:44 GoodsReceived.php:128
 #: InternalStockCategoriesByRole.php:167 InternalStockRequestInquiry.php:219
 #: InternalStockRequestInquiry.php:266 InternalStockRequestInquiry.php:398
 #: InternalStockRequest.php:348 InternalStockRequest.php:543
@@ -1186,7 +1186,7 @@ msgstr "일 이전"
 #: CustomerInquiry.php:256 CustomerPurchases.php:91 DeliveryDetails.php:882
 #: DeliveryDetails.php:943 GLBalanceSheet.php:229 GLBalanceSheet.php:241
 #: GLBalanceSheet.php:328 GLBalanceSheet.php:337 GLBudgets.php:212
-#: GLJournal.php:608 GLTransInquiry.php:206 GLTrialBalance.php:238
+#: GLJournal.php:608 GLTransInquiry.php:201 GLTrialBalance.php:238
 #: GLTrialBalance.php:258 GLTrialBalance.php:279 GLTrialBalance.php:375
 #: GLTrialBalance.php:502 GLTrialBalance.php:522 GLTrialBalance.php:545
 #: GLTrialBalance.php:637 GLTrialBalance.php:651 GLTrialBalance.php:667
@@ -4105,7 +4105,7 @@ msgstr "당신은 당신이 GL 게시 기록을 매출원가 삭제 하시겠습
 #: COGSGLPostings.php:198 CustomerReceipt.php:1125 CustWhereAlloc.php:210
 #: Dashboard.php:424 GLAccountUsers.php:113 GLAccountUsers.php:125
 #: GLAccountUsers.php:136 GLJournal.php:200 GLJournal.php:568
-#: GLTransInquiry.php:46 Payments.php:1305 SupplierTransInquiry.php:172
+#: GLTransInquiry.php:43 Payments.php:1305 SupplierTransInquiry.php:172
 #: TaxAuthorities.php:147 TaxAuthorities.php:148 UserGLAccounts.php:117
 #: UserGLAccounts.php:129 UserGLAccounts.php:145
 msgid "GL Account"
@@ -8426,7 +8426,7 @@ msgstr "1 / 전 평가"
 msgid "Ex Rate - ECB"
 msgstr "전 속도 - ECB"
 
-#: Currencies.php:322 CustomerTypes.php:4 index.php:160 Prices.php:225
+#: Currencies.php:322 CustomerTypes.php:4 index.php:153 Prices.php:225
 #: SelectCustomer.php:155 SelectProduct.php:62 SelectSupplier.php:158
 #: StockCategories.php:273 SupplierTypes.php:5
 msgid "Maintenance"
@@ -9101,7 +9101,7 @@ msgstr "요금"
 
 #: CustomerAccount.php:257 CustomerBalancesMovement.php:118
 #: CustomerBalancesMovement.php:124 CustomerBalancesMovement.php:199
-#: GLTransInquiry.php:49 includes/PDFStatementPageHeader.inc:165
+#: GLTransInquiry.php:46 includes/PDFStatementPageHeader.inc:165
 msgid "Credits"
 msgstr "크레딧"
 
@@ -9448,7 +9448,7 @@ msgid "Opening Balance"
 msgstr "기초 잔액"
 
 #: CustomerBalancesMovement.php:117 CustomerBalancesMovement.php:124
-#: CustomerBalancesMovement.php:198 GLTransInquiry.php:48
+#: CustomerBalancesMovement.php:198 GLTransInquiry.php:45
 msgid "Debits"
 msgstr "차변"
 
@@ -9569,7 +9569,7 @@ msgstr "고객 지점"
 msgid "has been added, add another branch, or return to the"
 msgstr "또 다른 지점을 추가하거나으로 돌아가 추가되었습니다"
 
-#: CustomerBranches.php:240 index.php:6 includes/header.php:70
+#: CustomerBranches.php:240 index.php:5 includes/header.php:70
 msgid "Main Menu"
 msgstr "주 메뉴"
 
@@ -14674,7 +14674,7 @@ msgstr "직불"
 msgid "Total for period"
 msgstr "기간 동안 총"
 
-#: GLAccountInquiry.php:268 GLBudgets.php:181 GLTransInquiry.php:44
+#: GLAccountInquiry.php:268 GLBudgets.php:181 GLTransInquiry.php:41
 #: SalesByTypePeriodInquiry.php:354 Z_CheckDebtorsControl.php:70
 #: Z_CheckGLTransBalance.php:13 Z_UpdateChartDetailsBFwd.php:80
 msgid "Period"
@@ -15470,7 +15470,7 @@ msgstr "계정 설명"
 msgid "Others"
 msgstr ""
 
-#: GLJournalInquiry.php:141 GLTransInquiry.php:140 PDFChequeListing.php:171
+#: GLJournalInquiry.php:141 GLTransInquiry.php:136 PDFChequeListing.php:171
 msgid "Other GL Accounts"
 msgstr ""
 
@@ -15920,23 +15920,23 @@ msgstr "태그 ID"
 msgid "Are you sure you wish to delete this GL tag?"
 msgstr "이 GL 태그를 삭제할 확실합니까?"
 
-#: GLTransInquiry.php:4 GLTransInquiry.php:36 GLTransInquiry.php:37
+#: GLTransInquiry.php:3 GLTransInquiry.php:34
 msgid "General Ledger Transaction Inquiry"
 msgstr "총계정 원장 트랜잭션 귀하의 메시지"
 
-#: GLTransInquiry.php:9
+#: GLTransInquiry.php:8
 msgid "General Ledger Menu"
 msgstr "원장 메뉴"
 
-#: GLTransInquiry.php:12
+#: GLTransInquiry.php:11
 msgid "This page requires a valid transaction type and number"
 msgstr "이 페이지는 유효한 거래 유형과 번호가 필요합니다"
 
-#: GLTransInquiry.php:23
+#: GLTransInquiry.php:22
 msgid "No transaction of this type with id"
 msgstr "ID가이 유형의 트랜잭션 없다"
 
-#: GLTransInquiry.php:50 Timesheets.php:679
+#: GLTransInquiry.php:47 Timesheets.php:679
 msgid "Posted"
 msgstr "게시"
 
@@ -16755,62 +16755,62 @@ msgstr ""
 "이 프로세스는 필요한 일반 회계 원장 저널과 고객, 공급 업체 거래 위에서 함께 "
 "노란색으로 표시 만 ANALYSED 거래 은행 트랜잭션을 생성합니다. 확실합니까?"
 
-#: index.php:17
+#: index.php:15
 msgid "View or Amend outstanding offers"
 msgstr "보기 또는 뛰어난 제안을 개정"
 
-#: index.php:22
+#: index.php:20
 msgid "Create a new offer"
 msgstr "새로운 서비스를 만들기"
 
-#: index.php:27
+#: index.php:25
 msgid "View any open tenders without an offer"
 msgstr "제공하지 않고 열려있는 모든 입찰보기"
 
-#: index.php:37 WWW_Users.php:814
+#: index.php:35 WWW_Users.php:814
 msgid "Account Status"
 msgstr "계정 상태"
 
-#: index.php:42
+#: index.php:40
 msgid "Place An Order"
 msgstr "주문"
 
-#: index.php:47 PO_Header.php:699
+#: index.php:45 PO_Header.php:699
 msgid "Order Status"
 msgstr "주문 상태"
 
-#: index.php:102
+#: index.php:99
 msgid "General Setup Options"
 msgstr "일반 설정 옵션"
 
-#: index.php:104 PDFCustTransListing.php:136 PDFSuppTransListing.php:130
+#: index.php:101 PDFCustTransListing.php:136 PDFSuppTransListing.php:130
 #: SelectCustomer.php:152 SelectProduct.php:59 SelectSupplier.php:155
 #: Tax.php:298
 msgid "Transactions"
 msgstr "업무"
 
-#: index.php:130
+#: index.php:125
 msgid "Receivables/Payables Setup"
 msgstr "채권 / 채무 설치"
 
-#: index.php:132 SelectCustomer.php:149 SelectProduct.php:56
+#: index.php:127 SelectCustomer.php:149 SelectProduct.php:56
 #: SelectSupplier.php:152
 msgid "Inquiries and Reports"
 msgstr "문의 및 보고서"
 
-#: index.php:158
+#: index.php:151
 msgid "Inventory Setup"
 msgstr "재고 설정"
 
-#: index.php:195 reportwriter/languages/en_US/reports.php:191
+#: index.php:187 reportwriter/languages/en_US/reports.php:191
 msgid "Custom Reports"
 msgstr "사용자 정의 보고서"
 
-#: index.php:195
+#: index.php:187
 msgid "Standard Reports and Forms"
 msgstr "표준 보고서 및 양식"
 
-#: index.php:240 reportwriter/languages/en_US/reports.php:28
+#: index.php:234 reportwriter/languages/en_US/reports.php:28
 msgid "There are no reports to show!"
 msgstr "표시 할 보고서가 없습니다!"
 
@@ -39136,7 +39136,7 @@ msgstr ""
 msgid "You should now make the config.php read only for the web server."
 msgstr "당신은 이제 웹 서버에 대한 읽기 config.php를을해야합니다."
 
-#: UpgradeDatabase.php:208
+#: UpgradeDatabase.php:210
 msgid ""
 "Only mysql upgrades are performed seamlessly at this time. Your database "
 "will need to be manually updated"
@@ -39144,64 +39144,64 @@ msgstr ""
 "만 MySQL의 업그레이드는이 시간에 원활하게 수행됩니다. 데이터베이스를 수동으"
 "로 업데이트해야합니다"
 
-#: UpgradeDatabase.php:222
+#: UpgradeDatabase.php:224
 msgid "Applying"
 msgstr "적용"
 
-#: UpgradeDatabase.php:250 Z_Upgrade_3.10-3.11.php:58 Z_Upgrade3.10.php:28
+#: UpgradeDatabase.php:252 Z_Upgrade_3.10-3.11.php:58 Z_Upgrade3.10.php:28
 #: Z_Upgrade3.10.php:33 Z_Upgrade3.10.php:45 Z_Upgrade3.10.php:50
 #: Z_Upgrade3.10.php:59 Z_Upgrade3.10.php:64 Z_Upgrade3.10.php:73
 #: Z_Upgrade3.10.php:78 Z_Upgrade_3.11-4.00.php:58
 msgid "Success"
 msgstr "성공"
 
-#: UpgradeDatabase.php:253
+#: UpgradeDatabase.php:255
 msgid "Foreign Key already removed"
 msgstr "외래 키는 이미 제거"
 
-#: UpgradeDatabase.php:256 Z_Upgrade_3.10-3.11.php:62
+#: UpgradeDatabase.php:258 Z_Upgrade_3.10-3.11.php:62
 #: Z_Upgrade_3.11-4.00.php:62
 msgid "Table has already been created"
 msgstr "테이블은 이미 생성 된"
 
-#: UpgradeDatabase.php:259
+#: UpgradeDatabase.php:261
 msgid "Column has already been changed"
 msgstr "열은 이미 변경되었습니다"
 
-#: UpgradeDatabase.php:262 Z_Upgrade_3.10-3.11.php:66
+#: UpgradeDatabase.php:264 Z_Upgrade_3.10-3.11.php:66
 #: Z_Upgrade_3.11-4.00.php:66
 msgid "Column has already been created"
 msgstr "열이 이미 생성 된"
 
-#: UpgradeDatabase.php:265 Z_Upgrade_3.10-3.11.php:70
+#: UpgradeDatabase.php:267 Z_Upgrade_3.10-3.11.php:70
 #: Z_Upgrade_3.11-4.00.php:70
 msgid "Index already exists"
 msgstr "인덱스가 이미 있습니다"
 
-#: UpgradeDatabase.php:268 Z_Upgrade_3.10-3.11.php:74
+#: UpgradeDatabase.php:270 Z_Upgrade_3.10-3.11.php:74
 #: Z_Upgrade_3.11-4.00.php:74
 msgid "Entry has already been done"
 msgstr "항목이 이미 완료되었습니다"
 
-#: UpgradeDatabase.php:271
+#: UpgradeDatabase.php:273
 msgid "SQL syntax error. The SQL error message is"
 msgstr "SQL 구문 오류. SQL 오류 메시지는"
 
-#: UpgradeDatabase.php:274 Z_Upgrade_3.10-3.11.php:78
+#: UpgradeDatabase.php:276 Z_Upgrade_3.10-3.11.php:78
 #: Z_Upgrade_3.11-4.00.php:78
 msgid "Primary key already exists"
 msgstr "기본 키가 이미 존재합니다"
 
-#: UpgradeDatabase.php:277
+#: UpgradeDatabase.php:279
 msgid "Index already dropped previously"
 msgstr "지수는 이미 이전에 떨어졌다"
 
-#: UpgradeDatabase.php:280 Z_Upgrade_3.10-3.11.php:81
+#: UpgradeDatabase.php:282 Z_Upgrade_3.10-3.11.php:81
 #: Z_Upgrade_3.11-4.00.php:81
 msgid "Failure"
 msgstr "실패"
 
-#: UpgradeDatabase.php:280 Z_Upgrade_3.10-3.11.php:82
+#: UpgradeDatabase.php:282 Z_Upgrade_3.10-3.11.php:82
 #: Z_Upgrade_3.11-4.00.php:82
 msgid "Error number"
 msgstr "오류 번호"
@@ -49081,8 +49081,8 @@ msgid "Iranian rial"
 msgstr "이란 리알"
 
 #: includes/CurrenciesArray.php:78
-msgid "Icelandic króna"
-msgstr "아이슬란드어 크로나"
+msgid "Icelandic krona"
+msgstr ""
 
 #: includes/CurrenciesArray.php:79
 msgid "Jamaican dollar"
@@ -49233,8 +49233,8 @@ msgid "Nigerian naira"
 msgstr "나이지리아 나이라"
 
 #: includes/CurrenciesArray.php:116
-msgid "Nicaraguan córdoba"
-msgstr "니카라과 코르도바"
+msgid "Nicaraguan cordoba"
+msgstr ""
 
 #: includes/CurrenciesArray.php:117
 msgid "Norwegian krone"
@@ -49273,12 +49273,12 @@ msgid "Pakistani rupee"
 msgstr "파키스탄 루피"
 
 #: includes/CurrenciesArray.php:126
-msgid "Polish złoty"
-msgstr "폴란드 즐 로티"
+msgid "Polish zloty"
+msgstr ""
 
 #: includes/CurrenciesArray.php:127
-msgid "Paraguayan guaraní"
-msgstr "파라과이 과라니"
+msgid "Paraguayan guarani"
+msgstr ""
 
 #: includes/CurrenciesArray.php:128
 msgid "Qatari riyal"
@@ -49345,8 +49345,8 @@ msgid "South Sudanese pound"
 msgstr "남 수단 파운드"
 
 #: includes/CurrenciesArray.php:144
-msgid "São Tomé and Príncipe dobra"
-msgstr "상투 메 프린시 페 도브 라"
+msgid "Sao Tome and Principe dobra"
+msgstr ""
 
 #: includes/CurrenciesArray.php:145
 msgid "Syrian pound"
@@ -49373,8 +49373,8 @@ msgid "Tunisian dinar"
 msgstr "튀니지 디나르"
 
 #: includes/CurrenciesArray.php:151
-msgid "Tongan paʻanga"
-msgstr "통가 파 앙가"
+msgid "Tongan pa'anga"
+msgstr ""
 
 #: includes/CurrenciesArray.php:152
 msgid "Turkish lira"
@@ -49425,8 +49425,8 @@ msgid "Uzbekistan som"
 msgstr "우즈베키스탄 솜"
 
 #: includes/CurrenciesArray.php:164
-msgid "Venezuelan bolívar fuerte"
-msgstr "베네수엘라 볼리바르 푸에르 테"
+msgid "Venezuelan bolivar fuerte"
+msgstr ""
 
 #: includes/CurrenciesArray.php:165
 msgid "Vietnamese dong"
@@ -53592,6 +53592,27 @@ msgstr "신용 카드"
 #: ../webSHOP/includes/session.php:162
 msgid "Bank Transfer"
 msgstr "은행 송금"
+
+#~ msgid "Icelandic króna"
+#~ msgstr "아이슬란드어 크로나"
+
+#~ msgid "Nicaraguan córdoba"
+#~ msgstr "니카라과 코르도바"
+
+#~ msgid "Polish złoty"
+#~ msgstr "폴란드 즐 로티"
+
+#~ msgid "Paraguayan guaraní"
+#~ msgstr "파라과이 과라니"
+
+#~ msgid "São Tomé and Príncipe dobra"
+#~ msgstr "상투 메 프린시 페 도브 라"
+
+#~ msgid "Tongan paʻanga"
+#~ msgstr "통가 파 앙가"
+
+#~ msgid "Venezuelan bolívar fuerte"
+#~ msgstr "베네수엘라 볼리바르 푸에르 테"
 
 #~ msgid "Detail Or Summary"
 #~ msgstr "세부 정보 또는 요약"
